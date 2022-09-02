@@ -63,7 +63,7 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="<?= base_url()?>admin/petugas">Data Petugas</a>
-                        <a class="collapse-item" href="#">Data Masyarakat</a>
+                        <a class="collapse-item" href="<?= base_url()?>admin/pelapor">Data Masyarakat</a>
                     </div>
                 </div>
             </li>
@@ -78,7 +78,7 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="#">Data Laporan</a>
+                        <a class="collapse-item" href="<?= base_url()?>admin/laporan">Data Laporan</a>
                     </div>
                 </div>
             </li>
